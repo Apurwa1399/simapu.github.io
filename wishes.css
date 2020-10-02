@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+.mar-mid{margin-left:600px}
+.mleft{margin-left: 130px}
+.mlefto{margin-left: 230px}
+.mleftt{margin-left: 320px}
+
+.rvw-main{width: 100%;height: 75vh;display:flex;justify-content: center;align-items: center;}
+.box{width:400px; height: 300px;background:#1D6FDF;display: flex;justify-content: center;align-items: center;flex-direction: column;position: relative;border:2px solid black;}
+.box::before{content: "";width: 40px;height: 40px; position: absolute;bottom: 0;background:  #1D6FDF;border-bottom: 2px solid black; border-right: 2px solid black; transform: translateY(53%) rotate(45deg);}
+.box h3{margin: 10px 0}
+.box p{margin: 0px 35px;}
